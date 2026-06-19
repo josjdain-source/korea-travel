@@ -1,21 +1,25 @@
-name: Deploy to Cloudflare Pages
+name: Deploy
 
 on:
   push:
     branches: [main]
 
 jobs:
-  deploy:
+  github-pages:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+      - name: Build site directory
+        run: |
+          mkdir -p _site/data
+          cp *.html *.css *.js hero.png _site/
+          cp data/*.json _site/data/
 
-      - name: Deploy
-        env:
-          CF_TOKEN: ${{ secrets.CF_TOKEN }}
-        run: python pipeline/cf_deploy.py
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: _site

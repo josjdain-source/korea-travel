@@ -1,5 +1,5 @@
 """Deploy to Cloudflare Pages via Direct Upload API."""
-import os, io, json, hashlib, urllib.request
+import os, json, hashlib, urllib.request
 
 ACCOUNT_ID = "1feef70717b588bffa9cbe216703f20d"
 PROJECT    = "korea-travel"
@@ -15,7 +15,7 @@ if os.path.exists(_env):
 
 TOKEN = os.environ.get("CF_TOKEN", "")
 if not TOKEN:
-    raise SystemExit("CF_TOKEN not set — add to pipeline/.env")
+    raise SystemExit("CF_TOKEN not set -- add to pipeline/.env")
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
@@ -39,7 +39,7 @@ for root, dirs, fnames in os.walk("."):
         sha = hashlib.sha256(data).hexdigest()
         files[arcname] = (sha, data)
 
-print(f"파일 {len(files)}개 준비")
+print(f"Files: {len(files)}")
 
 # Build multipart body:
 # - "manifest" part: JSON {"/path": "sha256", ...}
@@ -84,8 +84,8 @@ req = urllib.request.Request(
 try:
     resp = json.loads(urllib.request.urlopen(req, timeout=120).read())
     url = resp.get("result", {}).get("url", f"https://{PROJECT}.pages.dev")
-    print(f"\n배포 완료 → {url}")
-    print(f"메인 주소 → https://{PROJECT}.pages.dev")
+    print(f"\nDeploy complete -> {url}")
+    print(f"Main URL -> https://{PROJECT}.pages.dev")
 except urllib.error.HTTPError as e:
-    print(f"오류 {e.code}: {e.read().decode()}")
+    print(f"Error {e.code}: {e.read().decode()}")
     raise
