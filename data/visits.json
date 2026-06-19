@@ -1877,59 +1877,6 @@
     },
     {
       "creatorId": "lost-then-found",
-      "place": "Busan",
-      "city": "Busan",
-      "region": "Gyeongbuk",
-      "spot": "Busan Korea Ultimate Travel Guide",
-      "views": 146237,
-      "reason": "culture",
-      "videoUrl": "https://www.youtube.com/watch?v=NQ8nYQt4hlc",
-      "uploaded": "2025-04",
-      "confidence": "ai-generated",
-      "sources": [
-        "https://www.youtube.com/watch?v=NQ8nYQt4hlc"
-      ],
-      "moments": [
-        {
-          "num": 1,
-          "type": "sightseeing",
-          "title": "Haeundae Beach",
-          "description": "The creator visited Haeundae Beach, a 1.5km long white sand beach surrounded by high-rise buildings, and described it as a 'must-visit' destination in Busan. They also mentioned that it's a popular spot for both locals and tourists.",
-          "place": {
-            "name": "Haeundae Beach",
-            "lat": 35.1577809,
-            "lng": 129.1581318
-          },
-          "emotion": [
-            "amazed",
-            "relaxed"
-          ],
-          "replay": {
-            "cost": "",
-            "tip": "Take the subway from Busan Station to Haeundae Station and then walk to the beach."
-          }
-        },
-        {
-          "num": 2,
-          "type": "food",
-          "title": "Oreokdweji-gukbap",
-          "description": "The creator visited Oreokdweji-gukbap, a restaurant in Busan that serves a traditional Korean dish called 'dweji-gukbap'. They described the dish as a 'must-try' experience and recommended it for visitors to Busan.",
-          "place": {
-            "name": "Oreokdweji-gukbap"
-          },
-          "emotion": [
-            "delighted",
-            "satisfied"
-          ],
-          "replay": {
-            "cost": "",
-            "tip": "Try the dweji-gukbap at Oreokdweji-gukbap restaurant in Busan."
-          }
-        }
-      ]
-    },
-    {
-      "creatorId": "lost-then-found",
       "place": "Korea",
       "city": "Seoul, Daejeon, Gurye, Haenam",
       "region": "Korea",
@@ -2009,125 +1956,6 @@
           "replay": {
             "cost": "free",
             "tip": "Visit the lighthouse for a panoramic view of the surrounding area."
-          }
-        }
-      ]
-    },
-    {
-      "creatorId": "lost-then-found",
-      "place": "Korea",
-      "city": "Busan, Changwon, Jinhae, Yangsan, Gyeongju, Mungyeong, Chungju, Seoul",
-      "region": "Gyeongnam, Gyeongbuk, Chungbuk, Seoul",
-      "spot": "Quest to Find the Best Cherry Blossoms in Korea!",
-      "views": 5185,
-      "reason": "culture|food|nature|adventure",
-      "videoUrl": "https://www.youtube.com/watch?v=165kooLC5oo",
-      "uploaded": "2025-04",
-      "confidence": "ai-generated",
-      "sources": [
-        "https://www.youtube.com/watch?v=165kooLC5oo"
-      ],
-      "moments": [
-        {
-          "num": 1,
-          "type": "food",
-          "title": "Kwongibaek Sut-bul Dak-galbi",
-          "description": "The creator and their parents visited Kwongibaek Sut-bul Dak-galbi, a chicken BBQ place in Busan. They ordered and enjoyed the food.",
-          "place": {
-            "name": "Kwongibaek Sut-bul Dak-galbi"
-          },
-          "emotion": [
-            "happy",
-            "excited"
-          ],
-          "replay": {
-            "cost": "",
-            "tip": "Try the chicken BBQ at Kwongibaek Sut-bul Dak-galbi for a delicious meal."
-          }
-        },
-        {
-          "num": 2,
-          "type": "nature",
-          "title": "Gwangam Beach",
-          "description": "The creator and their parents visited Gwangam Beach in Changwon, a quiet beach with nice walking paths. They enjoyed the scenery and took a walk.",
-          "place": {
-            "name": "Gwangam Beach"
-          },
-          "emotion": [
-            "relaxed",
-            "peaceful"
-          ],
-          "replay": {
-            "cost": "",
-            "tip": "Visit Gwangam Beach early in the morning for a peaceful walk and beautiful scenery."
-          }
-        },
-        {
-          "num": 3,
-          "type": "culture",
-          "title": "Gurye Countryside",
-          "description": "The creator and their parents explored the beautiful countryside town of Gurye, discovering its charm and character. They enjoyed the local atmosphere and scenery.",
-          "place": {
-            "name": "Gurye Countryside"
-          },
-          "emotion": [
-            "curious",
-            "amazed"
-          ],
-          "replay": {
-            "cost": "",
-            "tip": "Explore the countryside town of Gurye to experience its unique charm and character."
-          }
-        },
-        {
-          "num": 4,
-          "type": "sightseeing",
-          "title": "Jinhae Cherry Blossom Festival",
-          "description": "The creator and their parents visited the Jinhae Cherry Blossom Festival, one of the most popular cherry blossom festivals in Korea. They enjoyed the beautiful cherry blossoms and festival atmosphere.",
-          "place": {
-            "name": "Jinhae Cherry Blossom Festival"
-          },
-          "emotion": [
-            "happy",
-            "excited"
-          ],
-          "replay": {
-            "cost": "",
-            "tip": "Visit the Jinhae Cherry Blossom Festival during peak season for a beautiful and festive experience."
-          }
-        },
-        {
-          "num": 5,
-          "type": "nature",
-          "title": "Namhae Island",
-          "description": "The creator and their parents visited Namhae Island, a beautiful island with a rich history and culture. They enjoyed the island's scenery and took a walk.",
-          "place": {
-            "name": "Namhae Island"
-          },
-          "emotion": [
-            "relaxed",
-            "peaceful"
-          ],
-          "replay": {
-            "cost": "",
-            "tip": "Visit Namhae Island for a peaceful and relaxing experience, and enjoy its beautiful scenery."
-          }
-        },
-        {
-          "num": 6,
-          "type": "culture",
-          "title": "Gwangju Gyeongju",
-          "description": "The creator and their parents visited Gyeongju, a historic city with a rich cultural heritage. They explored the city's ancient ruins and enjoyed the local atmosphere.",
-          "place": {
-            "name": "Gyeongju"
-          },
-          "emotion": [
-            "curious",
-            "amazed"
-          ],
-          "replay": {
-            "cost": "",
-            "tip": "Visit Gyeongju to experience its rich cultural heritage and explore its ancient ruins."
           }
         }
       ]
@@ -2750,40 +2578,6 @@
           "replay": {
             "cost": "",
             "tip": "Changsin-dong is a great place to try street food and experience the local culture."
-          }
-        }
-      ]
-    },
-    {
-      "creatorId": "igobart",
-      "place": "The Hague",
-      "city": "The Hague",
-      "region": "South Holland",
-      "spot": "The One Dutch Thing the Korean Ambassador Wanted to Take Back to Korea",
-      "views": 50454,
-      "reason": "culture",
-      "videoUrl": "https://www.youtube.com/watch?v=EaGSD9Sjjow",
-      "uploaded": "2026-01",
-      "confidence": "ai-generated",
-      "sources": [
-        "https://www.youtube.com/watch?v=EaGSD9Sjjow"
-      ],
-      "moments": [
-        {
-          "num": 1,
-          "type": "culture",
-          "title": "Walk and conversation with the Korean Ambassador",
-          "description": "The creator met with the Korean Ambassador to the Netherlands, Hong Seok-in, for a walk and conversation through The Hague on a snowy winter day. They talked about his life in the Netherlands, Dutch food, culture shock, and how it feels to represent Korea abroad.",
-          "place": {
-            "name": "The Hague"
-          },
-          "emotion": [
-            "inspiring",
-            "interesting"
-          ],
-          "replay": {
-            "cost": null,
-            "tip": "Visit The Hague on a snowy winter day for a unique experience."
           }
         }
       ]
@@ -4715,57 +4509,6 @@
     },
     {
       "creatorId": "joel-bennett",
-      "place": "Jeonju",
-      "city": "Jeonju",
-      "region": "Jeollabuk-do",
-      "spot": "엄마표 정 한국에서 가장 순수하고 아름다운 순간",
-      "views": 74492,
-      "reason": "culture",
-      "videoUrl": "https://www.youtube.com/watch?v=4Fl51ec_htA",
-      "uploaded": "2025-08",
-      "confidence": "ai-generated",
-      "sources": [
-        "https://www.youtube.com/watch?v=4Fl51ec_htA"
-      ],
-      "moments": [
-        {
-          "num": 1,
-          "type": "food",
-          "title": "Trying Traditional Korean Home-Cooked Meal",
-          "description": "The creator visited a traditional Korean home and tried a home-cooked meal, which was a pure and beautiful experience. The meal was prepared by a kind and generous woman who welcomed the creator with open arms.",
-          "place": {
-            "name": "Jeonju Traditional Korean Home"
-          },
-          "emotion": [
-            "joy",
-            "gratitude"
-          ],
-          "replay": {
-            "cost": "",
-            "tip": "Try to visit a traditional Korean home and experience the local culture."
-          }
-        },
-        {
-          "num": 2,
-          "type": "food",
-          "title": "Eating at a Traditional Korean Restaurant",
-          "description": "The creator visited a traditional Korean restaurant in Jeonju and tried some of the local specialties, including a delicious dish called \"banchan\". The restaurant was old and had a nostalgic feel to it.",
-          "place": {
-            "name": "Chunju Restaurant"
-          },
-          "emotion": [
-            "happiness",
-            "appreciation"
-          ],
-          "replay": {
-            "cost": "",
-            "tip": "Try to visit a traditional Korean restaurant and try some of the local specialties."
-          }
-        }
-      ]
-    },
-    {
-      "creatorId": "joel-bennett",
       "place": "포차",
       "city": "Seoul",
       "region": "Seoul",
@@ -4866,74 +4609,6 @@
           "replay": {
             "cost": "",
             "tip": "Order the banchan and main dish at the food spot for a delicious meal."
-          }
-        }
-      ]
-    },
-    {
-      "creatorId": "joel-bennett",
-      "place": "Busan",
-      "city": "Busan",
-      "region": "Gyeongbuk",
-      "spot": "부산 숨은 맛집에서 느낀 진짜 정",
-      "views": 29829,
-      "reason": "culture",
-      "videoUrl": "https://www.youtube.com/watch?v=AcCfichalWc",
-      "uploaded": "2025-12",
-      "confidence": "ai-generated",
-      "sources": [
-        "https://www.youtube.com/watch?v=AcCfichalWc"
-      ],
-      "moments": [
-        {
-          "num": 1,
-          "type": "food",
-          "title": "Hidden Restaurant in Busan",
-          "description": "The creator visited a hidden restaurant in Busan and tried some of the local seafood dishes, including raw oysters and sea cucumber.",
-          "place": {
-            "name": "Morm's Coffee"
-          },
-          "emotion": [
-            "delicious",
-            "amazing"
-          ],
-          "replay": {
-            "cost": null,
-            "tip": null
-          }
-        },
-        {
-          "num": 2,
-          "type": "sightseeing",
-          "title": "Sinseonbawi",
-          "description": "The creator visited Sinseonbawi, a stunning rock formation in Busan, and took in the breathtaking views of the city.",
-          "place": {
-            "name": "Sinseonbawi"
-          },
-          "emotion": [
-            "stunning",
-            "unbelievable"
-          ],
-          "replay": {
-            "cost": null,
-            "tip": null
-          }
-        },
-        {
-          "num": 3,
-          "type": "food",
-          "title": "Seafood Restaurant",
-          "description": "The creator visited a seafood restaurant in Busan and tried some of the local specialties, including sea cucumber and oysters.",
-          "place": {
-            "name": "해먹"
-          },
-          "emotion": [
-            "delicious",
-            "amazing"
-          ],
-          "replay": {
-            "cost": null,
-            "tip": null
           }
         }
       ]
@@ -5097,57 +4772,6 @@
     },
     {
       "creatorId": "korean-englishman",
-      "place": "Jeju Noodle Bar",
-      "city": "New York",
-      "region": "New York",
-      "spot": "We tried Michelin Star Korean Fried Chicken",
-      "views": 1342438,
-      "reason": "food",
-      "videoUrl": "https://www.youtube.com/watch?v=U7ixYeqBy9U",
-      "uploaded": "2025-04",
-      "confidence": "ai-generated",
-      "sources": [
-        "https://www.youtube.com/watch?v=U7ixYeqBy9U"
-      ],
-      "moments": [
-        {
-          "num": 1,
-          "type": "food",
-          "title": "Toro Samba",
-          "description": "The creator tried the Toro Samba dish at Jeju Noodle Bar, which consisted of seasoned rice, egg salad, and toro with dalia for textures. They were instructed to scoop all layers with the spoon and make a wrap with the seaweed.",
-          "place": {
-            "name": "Jeju Noodle Bar"
-          },
-          "emotion": [
-            "excitement",
-            "surprise"
-          ],
-          "replay": {
-            "cost": null,
-            "tip": "Don't mix the dish and scoop all layers with the spoon."
-          }
-        },
-        {
-          "num": 2,
-          "type": "food",
-          "title": "Korean Fried Chicken",
-          "description": "The creator tried the Korean fried chicken at Jeju Noodle Bar, which was brined and served with garlic yogurt sauce and caviar. They were instructed to squeeze a piece of lime onto the chicken and get the good amount of sauce on the chicken.",
-          "place": {
-            "name": "Jeju Noodle Bar"
-          },
-          "emotion": [
-            "excitement",
-            "surprise"
-          ],
-          "replay": {
-            "cost": null,
-            "tip": "Squeeze a piece of lime onto the chicken and get the good amount of sauce on the chicken."
-          }
-        }
-      ]
-    },
-    {
-      "creatorId": "korean-englishman",
       "place": "",
       "city": "",
       "region": "",
@@ -5161,40 +4785,6 @@
         "https://www.youtube.com/watch?v=oaxEsnhY5NA"
       ],
       "moments": []
-    },
-    {
-      "creatorId": "korean-englishman",
-      "place": "New York City",
-      "city": "New York City",
-      "region": "New York City",
-      "spot": "We tried Michelin Star Korean Desserts",
-      "views": 660590,
-      "reason": "food",
-      "videoUrl": "https://www.youtube.com/watch?v=2yYe9mPcE2s",
-      "uploaded": "2025-05",
-      "confidence": "ai-generated",
-      "sources": [
-        "https://www.youtube.com/watch?v=2yYe9mPcE2s"
-      ],
-      "moments": [
-        {
-          "num": 1,
-          "type": "food",
-          "title": "Michelin Star Korean Desserts",
-          "description": "The creators tried Michelin star Korean desserts at Oiji Mi in New York City. They were impressed by the unique combination of flavors and ingredients.",
-          "place": {
-            "name": "Oiji Mi"
-          },
-          "emotion": [
-            "amazed",
-            "delighted"
-          ],
-          "replay": {
-            "cost": null,
-            "tip": "Reservations are highly recommended for Michelin-starred restaurants like Oiji Mi."
-          }
-        }
-      ]
     },
     {
       "creatorId": "korean-englishman",
@@ -5538,74 +5128,6 @@
     },
     {
       "creatorId": "korean-englishman",
-      "place": "New Malden",
-      "city": "London",
-      "region": "UK",
-      "spot": "British Cabbies Try Korean Fried Chicken",
-      "views": 2496531,
-      "reason": "food",
-      "videoUrl": "https://www.youtube.com/watch?v=olPwBhM-jMA",
-      "uploaded": "2026-01",
-      "confidence": "ai-generated",
-      "sources": [
-        "https://www.youtube.com/watch?v=olPwBhM-jMA"
-      ],
-      "moments": [
-        {
-          "num": 1,
-          "type": "food",
-          "title": "Trying Korean Fried Chicken",
-          "description": "The creators tried Korean fried chicken at Tongdak in New Malden, London. They compared it to traditional fried chicken and found it to be less greasy and more flavorful.",
-          "place": {
-            "name": "Tongdak"
-          },
-          "emotion": [
-            "amusement",
-            "surprise"
-          ],
-          "replay": {
-            "cost": "Not mentioned",
-            "tip": "Visit Tongdak in New Malden for authentic Korean fried chicken."
-          }
-        }
-      ]
-    },
-    {
-      "creatorId": "korean-englishman",
-      "place": "New Malden",
-      "city": "London",
-      "region": "UK",
-      "spot": "British High Schooler Feeds His Family REAL Korean Food",
-      "views": 1533624,
-      "reason": "food",
-      "videoUrl": "https://www.youtube.com/watch?v=qEGybXm_Wg4",
-      "uploaded": "2026-03",
-      "confidence": "ai-generated",
-      "sources": [
-        "https://www.youtube.com/watch?v=qEGybXm_Wg4"
-      ],
-      "moments": [
-        {
-          "num": 1,
-          "type": "food",
-          "title": "Trying Korean Food at Seoul Matjib",
-          "description": "The creator and his family tried various Korean dishes at Seoul Matjib, a Korean restaurant in New Malden. They enjoyed the food and had a good time.",
-          "place": {
-            "name": "Seoul Matjib"
-          },
-          "emotion": [
-            "happy",
-            "excited"
-          ],
-          "replay": {
-            "cost": null,
-            "tip": "Seoul Matjib is a great place to try authentic Korean food in the UK."
-          }
-        }
-      ]
-    },
-    {
-      "creatorId": "korean-englishman",
       "place": "Korean restaurant",
       "city": "not specified",
       "region": "not specified",
@@ -5695,40 +5217,6 @@
             "delight",
             "amusement"
           ]
-        }
-      ]
-    },
-    {
-      "creatorId": "korean-englishman",
-      "place": "England",
-      "city": "Eastbourne",
-      "region": "England",
-      "spot": "The British Fishermen Who Feed 50 Million Koreans",
-      "views": 3939495,
-      "reason": "food",
-      "videoUrl": "https://www.youtube.com/watch?v=kAaQafKGF7U",
-      "uploaded": "2026-05",
-      "confidence": "ai-generated",
-      "sources": [
-        "https://www.youtube.com/watch?v=kAaQafKGF7U"
-      ],
-      "moments": [
-        {
-          "num": 1,
-          "type": "food",
-          "title": "Trying Golbaengi Muchim",
-          "description": "The creator tried Golbaengi Muchim, a Korean dish made from sea snails, for the first time. They were impressed by the taste and texture.",
-          "place": {
-            "name": "Fish and Crab Shack in Eastbourne"
-          },
-          "emotion": [
-            "impressed",
-            "surprised"
-          ],
-          "replay": {
-            "cost": null,
-            "tip": "Visit the Fish and Crab Shack in Eastbourne to try the freshest whelks in the UK."
-          }
         }
       ]
     },
@@ -6167,102 +5655,6 @@
       ]
     },
     {
-      "creatorId": "lost-then-found",
-      "place": "Jeonju Hanok Village",
-      "city": "Jeonju",
-      "region": "Jeonbuk",
-      "spot": "Jeonju Travel Guide 2026 | Ultimate 2-Day Hanok Village Itinerary from Seoul",
-      "views": 4500,
-      "reason": "culture",
-      "videoUrl": "https://www.youtube.com/watch?v=YOie2yagLoU",
-      "uploaded": "2026-06",
-      "confidence": "high",
-      "sources": [
-        "https://www.youtube.com/watch?v=YOie2yagLoU"
-      ],
-      "moments": [
-        {
-          "num": 1,
-          "time": "Morning",
-          "type": "walking",
-          "title": "Hanok Village arrival walk",
-          "description": "600+ traditional tile-roofed homes packed into one neighborhood. The scale hits different in person — this isn't a museum, people actually live here.",
-          "place": {
-            "name": "Jeonju Hanok Village entrance",
-            "lat": 35.8158,
-            "lng": 127.1529
-          },
-          "emotion": [
-            "traditional",
-            "calm"
-          ],
-          "replay": {
-            "tip": "Weekday mornings before 10am — the stone alleys are empty and completely photogenic"
-          }
-        },
-        {
-          "num": 2,
-          "time": "Morning",
-          "type": "culture",
-          "title": "Hanbok rental & alley walk",
-          "description": "Rent a traditional hanbok and the whole village suddenly looks like it was designed for you. Hair styling included at most shops.",
-          "place": {
-            "name": "Hanbok rental district, Hanok Village",
-            "lat": 35.8168,
-            "lng": 127.1541
-          },
-          "emotion": [
-            "culture",
-            "photo"
-          ],
-          "replay": {
-            "cost": "₩15,000–20,000 / 2 hrs",
-            "tip": "Hair styling is included — skip the street-rental stalls, use a proper shop for quality fabric"
-          }
-        },
-        {
-          "num": 3,
-          "time": "Lunch",
-          "type": "food",
-          "title": "Jeonju bibimbap — origin city",
-          "description": "Jeonju invented this dish. Stone bowl (돌솥) arrives sizzling with 20+ individual side dishes arranged around it. Mix it until the bottom crackles.",
-          "place": {
-            "name": "Hanok Village restaurant row",
-            "lat": 35.8148,
-            "lng": 127.153
-          },
-          "emotion": [
-            "food",
-            "local"
-          ],
-          "replay": {
-            "cost": "₩12,000–15,000",
-            "tip": "Mix until you hear the bottom rice layer crackle — that crispy layer (누룽지) is half the reason to order stone bowl"
-          }
-        },
-        {
-          "num": 4,
-          "time": "Afternoon",
-          "type": "sightseeing",
-          "title": "Gyeonggijeon Shrine & bamboo grove",
-          "description": "600-year-old shrine housing the portrait of Korea's founding king. Hidden bamboo forest path runs behind the main hall — most visitors miss it.",
-          "place": {
-            "name": "Gyeonggijeon (경기전)",
-            "lat": 35.8154,
-            "lng": 127.1521
-          },
-          "emotion": [
-            "historical",
-            "calm"
-          ],
-          "replay": {
-            "cost": "₩3,000 entry",
-            "tip": "The bamboo grove behind the main shrine — least crowded and the best light in the afternoon"
-          }
-        }
-      ]
-    },
-    {
       "creatorId": "cari-cakes",
       "place": "Gwangju",
       "city": "Gwangju",
@@ -6305,21 +5697,6 @@
       "confidence": "high",
       "sources": [
         "https://www.youtube.com/watch?v=-wbOT3MO2tc"
-      ]
-    },
-    {
-      "creatorId": "cari-cakes",
-      "place": "Gyeongju",
-      "city": "Gyeongju",
-      "region": "Gyeongbuk",
-      "spot": "the girls take gyeongju, korea this spring",
-      "views": 61000,
-      "reason": "culture",
-      "videoUrl": "https://www.youtube.com/watch?v=SG0-RY4zY74",
-      "uploaded": "2026-04",
-      "confidence": "high",
-      "sources": [
-        "https://www.youtube.com/watch?v=SG0-RY4zY74"
       ]
     },
     {
@@ -6658,82 +6035,6 @@
       "confidence": "high",
       "sources": [
         "https://www.youtube.com/@EatYourKimchi/videos"
-      ]
-    },
-    {
-      "creatorId": "igobart",
-      "place": "Andong",
-      "city": "Andong",
-      "region": "Gyeongbuk",
-      "spot": "Korea's most traditional city — Andong heotjesabap, mask dance, and Hahoe village | iGoBart",
-      "views": 340000,
-      "reason": "culture",
-      "videoUrl": "https://www.youtube.com/@iGoBart",
-      "uploaded": "2025-10",
-      "confidence": "high",
-      "sources": [
-        "https://www.youtube.com/@iGoBart/videos"
-      ],
-      "moments": [
-        {
-          "num": 1,
-          "time": "Morning",
-          "type": "culture",
-          "title": "Hahoe Folk Village — the living museum",
-          "description": "A UNESCO village that's still lived in. 600-year-old tiled and thatched houses, narrow alleys, a river bending around the whole settlement. Bart arrived before the tour buses and had it almost to himself.",
-          "place": {
-            "name": "Hahoe Folk Village (하회마을)",
-            "lat": 36.539,
-            "lng": 128.518
-          },
-          "emotion": [
-            "historical",
-            "calm"
-          ],
-          "replay": {
-            "tip": "Get there before 9am or after 4pm. Weekday mornings the village is near-empty and the light on the thatched roofs is incredible"
-          }
-        },
-        {
-          "num": 2,
-          "time": "Lunch",
-          "type": "food",
-          "title": "Andong jjimdak — the original braised chicken",
-          "description": "Andong is the birthplace of jjimdak — braised chicken with glass noodles, potatoes, and vegetables in a dark, slightly sweet soy sauce. The city has an entire alley of jjimdak restaurants.",
-          "place": {
-            "name": "Andong jjimdak alley (안동찜닭골목)",
-            "lat": 36.5684,
-            "lng": 128.7294
-          },
-          "emotion": [
-            "hearty",
-            "local"
-          ],
-          "replay": {
-            "cost": "₩18,000–22,000 (serves 2)",
-            "tip": "The alley near the old market has the oldest restaurants — go for the ones with handwritten menus and no English sign"
-          }
-        },
-        {
-          "num": 3,
-          "time": "Afternoon",
-          "type": "sightseeing",
-          "title": "Andong Mask Dance performance",
-          "description": "The Hahoe mask dance is performed at the village on weekends — the masks date back to the Goryeo dynasty. The performance includes satire of the ruling class, which was radical for its time.",
-          "place": {
-            "name": "Hahoe village performance stage",
-            "lat": 36.5401,
-            "lng": 128.5207
-          },
-          "emotion": [
-            "cultural",
-            "fascinating"
-          ],
-          "replay": {
-            "cost": "₩5,000 (grounds entry)",
-            "tip": "Weekend performances at 2pm and 3pm. The masks in the museum are originals — the performance uses replicas, but you can see the real ones in the case"
-          }
-        }
       ]
     },
     {

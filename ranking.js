@@ -4,6 +4,22 @@
 
 const BIG_CITIES = ["Seoul", "Busan", "Jeju"];
 
+const _REGION_NORM = {
+  "Gangwon-do": "Gangwon", "Kangwon-do": "Gangwon",
+  "Jeollabuk-do": "Jeonbuk",
+  "South Jeolla Province": "Jeonnam",
+  "Seocho-gu": "Seoul",
+};
+const _NON_KOREA = new Set([
+  "New York","New York City","England","South Holland","UK",
+  "Korea","South Korea","not specified",
+]);
+function normRegion(r) {
+  if (!r || _NON_KOREA.has(r)) return "";
+  if (r.includes(",")) r = r.split(",")[0].trim();
+  return _REGION_NORM[r] || r;
+}
+
 let DATA = { creators: [], visits: [] };
 let creatorById = {};
 let TRENDS = {};
@@ -63,7 +79,7 @@ function aggregate() {
     const key = keyOf(v);
     if (!groups[key]) {
       groups[key] = {
-        label: key, city: v.city, region: v.region,
+        label: key, city: v.city, region: normRegion(v.region),
         creators: new Set(), globalCreators: new Set(), localCreators: new Set(),
         reasons: {}, actions: new Set(), totalViews: 0, sceneCount: 0, latestUpload: "",
         recentVisits: [],
@@ -153,7 +169,7 @@ function buildExperienceFilters() {
 }
 
 function buildRegionFilters() {
-  const regions = ["all", ...new Set((DATA.visits || []).map((v) => v.region).filter(Boolean))];
+  const regions = ["all", ...new Set((DATA.visits || []).map((v) => normRegion(v.region)).filter(Boolean))].sort((a,b) => a==="all"?-1:b==="all"?1:a.localeCompare(b));
   regionFilters.innerHTML = regions
     .map((r) => `<button class="chip ${r === "all" ? "active" : ""}" data-region="${r}">${r === "all" ? "All regions" : esc(r)}</button>`)
     .join("");
