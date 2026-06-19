@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Behavior Graph — K-Drama Route</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="kicker">📡 LIVE — POWERED BY SUPABASE</p>
+      <h1>The graph is <em>collecting.</em></h1>
+      <p class="sub">These numbers are real rows in the <code>traveler_events</code> table. Every click across the site (visit, save, quiz, match, guide) inserts an event here. Browse the site in another tab, come back, refresh — watch it grow. This is the raw ore. 👣</p>
+      <div class="nav-links"><a href="ranking.html">← Back to the site</a> &nbsp;·&nbsp; <a href="quiz.html">🧭 Take the quiz (adds events)</a></div>
+    </div>
+  </header>
+  <main>
+    <section class="place-sec">
+      <h2>Total events collected</h2>
+      <p id="count" class="live-count">…</p>
+    </section>
+    <section class="place-sec">
+      <h2>By type <span class="conf">(visit = behavior · save/quiz = interest)</span></h2>
+      <div id="breakdown" class="dna">…</div>
+    </section>
+    <section class="place-sec">
+      <h2>Recent real transitions <span class="conf">(visit → next visit, per device)</span></h2>
+      <div id="flow" class="titles">…</div>
+    </section>
+    <button id="refresh" class="map-btn" type="button">↻ Refresh from Supabase</button>
+  </main>
+  <footer><p>Aggregates only — raw rows are not exposed to the public key (RLS). visit→next-visit transitions are the live seed of V24 Flow.</p></footer>
+  <script src="supabase.js"></script>
+  <script src="live.js"></script>
+</body>
+</html>

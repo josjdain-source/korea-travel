@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Korea, Chosen by the World's Creators — K-Drama Route</title>
+  <meta name="description" content="A ranking of Korean destinations by global creator interest — not visitor counts. See which places foreign YouTubers, Instagrammers and TikTokers actually go, and why." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="kicker">🌏 EXPERIENCE KOREA LIKE CREATORS DO</p>
+      <h1>Don't pick a city. Pick <em>what you want to do.</em></h1>
+      <p class="sub">Eat through a market, wear hanbok, chase a drama scene, sip coffee by the sea. We collect how the world's creators actually enjoy Korea — and show you who did it, where, and how to follow their route. Not "Visit Korea." Experience it like they did.</p>
+      <p class="stats" id="stats"></p>
+      <div class="nav-links">
+        <a href="index.html"><strong>🇰🇷 Follow a creator's Korea →</strong></a>
+        &nbsp;·&nbsp;
+        <a href="find.html">🔎 Seen it on a video? Find the place →</a>
+        &nbsp;·&nbsp;
+        <a href="quiz.html">🧭 What kind of traveler are you? →</a>
+        &nbsp;·&nbsp;
+        <a href="tribe.html">👥 Travel Tribes →</a>
+        &nbsp;·&nbsp;
+        <a href="graph.html">🌐 Identity Graph →</a>
+        &nbsp;·&nbsp;
+        <a href="query.html">🔎 Graph Query →</a>
+        &nbsp;·&nbsp;
+        <a href="live.html">📡 Live graph →</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="pick-tabs" aria-label="Creator perspective">
+      <div class="filter-group" id="pick-tabs" role="group">
+        <button class="chip active" data-pick="all">전체</button>
+        <button class="chip" data-pick="global">🌏 Global Pick</button>
+        <button class="chip" data-pick="local">🇰🇷 Local Pick</button>
+        <button class="chip" data-pick="verified">🔥 Verified</button>
+      </div>
+      <p class="pick-desc" id="pick-desc">해외 + 한국 크리에이터 전체 기준</p>
+    </section>
+
+    <section class="exp-chooser" aria-label="Experience filter">
+      <p class="exp-label">I want to…</p>
+      <div class="filter-group" id="exp-filters" role="group"></div>
+    </section>
+
+    <section class="controls" aria-label="Filters">
+      <div class="filter-group" id="mode-toggle" role="group" aria-label="Ranking mode">
+        <button class="chip active" data-mode="place">By place</button>
+        <button class="chip" data-mode="city">By city</button>
+      </div>
+      <div class="filter-group" id="region-filters" role="group" aria-label="Region filter"></div>
+      <label class="toggle"><input type="checkbox" id="hide-big" /> Hide Seoul / Busan / Jeju (show the hidden gems)</label>
+    </section>
+
+    <p class="result-count" id="result-count"></p>
+    <ol class="ranking" id="ranking"></ol>
+
+    <div class="empty-state" id="empty-state" hidden>
+      <h3 id="empty-title">No results for this filter combination.</h3>
+      <p id="empty-msg">Try selecting a different region or experience, or clear the filters.</p>
+      <a class="map-btn" href="ranking.html" style="margin-top:12px;display:inline-block;">Clear filters</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>Ranking = number of distinct foreign creators who visited × their reach. A research-curated, source-checked dataset; figures are approximate and grow over time.</p>
+  </footer>
+
+  <script src="engine.js"></script>
+  <script src="ranking.js"></script>
+</body>
+</html>

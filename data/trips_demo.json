@@ -1,0 +1,17 @@
+{
+  "_comment": "ILLUSTRATIVE ordered trips — INVENTED to demonstrate the V24 Flow/Simulator mechanism (P(next | current)). These are NOT real traveler trips. Real flow probabilities require many ordered, timestamped trips at volume (backend, V18). Place labels match data/visits.json so the demo links work.",
+  "trips": [
+    { "identity": "Quiet Horizon Wanderer 🌅", "seq": ["Gangneung (Coast & City)", "Gyeongju Historic Area", "Jeonju Hanok Village"] },
+    { "identity": "Quiet Horizon Wanderer 🌅", "seq": ["Gangneung (Coast & City)", "Gyeongju Historic Area"] },
+    { "identity": "Quiet Horizon Wanderer 🌅", "seq": ["Gangneung (Coast & City)", "Sokcho (Markets & Coast)"] },
+    { "identity": "Quiet Horizon Wanderer 🌅", "seq": ["Gangneung (Coast & City)", "Boseong Green Tea Fields"] },
+    { "identity": "Quiet Horizon Wanderer 🌅", "seq": ["Gangneung (Coast & City)", "Gyeongju Historic Area", "Andong (Hahoe & Old Town)"] },
+    { "identity": "Heritage Romantic 🏯", "seq": ["Gyeongju Historic Area", "Andong (Hahoe & Old Town)", "Jeonju Hanok Village"] },
+    { "identity": "Heritage Romantic 🏯", "seq": ["Gyeongju Historic Area", "Jeonju Hanok Village"] },
+    { "identity": "Street Flavor Hunter 🍜", "seq": ["Jeonju Hanok Village", "Gunsan Saemangeum Seafood Market"] },
+    { "identity": "Street Flavor Hunter 🍜", "seq": ["Jeonju Hanok Village", "Gunsan Saemangeum Seafood Market", "Yeosu (Coast)"] },
+    { "identity": "Quiet Horizon Wanderer 🌅", "seq": ["Sokcho (Markets & Coast)", "Gangneung (Coast & City)"] },
+    { "identity": "Heritage Romantic 🏯", "seq": ["Andong (Hahoe & Old Town)", "Gyeongju Historic Area"] },
+    { "identity": "Quiet Horizon Wanderer 🌅", "seq": ["Boseong Green Tea Fields", "Yeosu (Coast)"] }
+  ]
+}

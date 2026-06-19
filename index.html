@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Experience Korea Like Creators</title>
+  <meta name="description" content="Follow how the world's creators experienced Korea — watch the moment, see their route, make it your own trip." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="home">
+  <!-- Hero: design banner → scrolls to the real, interactive journeys -->
+  <a class="hero-banner" href="#journeys" aria-label="Explore creator journeys">
+    <img src="hero.png" alt="The world is coming to Korea — follow creators' journeys" />
+    <span class="hero-banner-cta">Explore creator journeys ↓</span>
+  </a>
+
+  <!-- Experience Categories -->
+  <section class="section">
+    <h2 class="section-title" style="white-space:nowrap">Find your Korea</h2>
+    <div class="cat-grid">
+      <a class="cat-card c-taste" href="ranking.html?exp=Food"><span class="cat-emoji">🍜</span><span class="cat-name">Taste Korea</span></a>
+      <a class="cat-card c-cafe" href="ranking.html?exp=Cafe"><span class="cat-emoji">☕</span><span class="cat-name">Cafe Korea</span></a>
+      <a class="cat-card c-drama" href="ranking.html?exp=K-Drama"><span class="cat-emoji">🎬</span><span class="cat-name">Drama Korea</span></a>
+      <a class="cat-card c-heritage" href="ranking.html?exp=Culture"><span class="cat-emoji">🏯</span><span class="cat-name">Heritage Korea</span></a>
+      <a class="cat-card c-nature" href="ranking.html?exp=Nature"><span class="cat-emoji">🌿</span><span class="cat-name">Nature Korea</span></a>
+      <a class="cat-card c-local" href="ranking.html?exp=Local%20Life"><span class="cat-emoji">🚂</span><span class="cat-name">Local Korea</span></a>
+    </div>
+  </section>
+
+  <!-- Featured Creator Journey -->
+  <section class="section">
+    <h2 class="section-title">This week's journey</h2>
+    <div id="featured"></div>
+  </section>
+
+  <!-- Popular Journeys -->
+  <section class="section" id="journeys">
+    <h2 class="section-title">Popular journeys</h2>
+    <p class="section-sub">Not places — real creators' Korea. Pick one and follow it.</p>
+    <div class="grid" id="creators"></div>
+  </section>
+
+  <!-- Travel DNA -->
+  <section class="dna-band">
+    <h2>What kind of traveler are you?</h2>
+    <div class="dna-chips">
+      <a href="tribe.html?id=Hidden%20Path%20Explorer%20%F0%9F%A7%AD">🧭 Explorer</a>
+      <a href="tribe.html?id=Street%20Flavor%20Hunter%20%F0%9F%8D%9C">🍜 Food Hunter</a>
+      <a href="tribe.html?id=Cultural%20Memory%20Keeper%20%F0%9F%8F%AF">🏯 Culture Lover</a>
+      <a href="tribe.html?id=Quiet%20Horizon%20Wanderer%20%F0%9F%8C%85">🌿 Relax Seeker</a>
+    </div>
+    <a class="btn-primary" href="quiz.html">Find your route →</a>
+  </section>
+
+  <!-- How it works -->
+  <section class="section how">
+    <h2 class="section-title">How it works</h2>
+    <div class="how-steps">
+      <div class="how-step"><span class="how-num">1</span><p>Watch a creator</p></div>
+      <div class="how-arrow">↓</div>
+      <div class="how-step"><span class="how-num">2</span><p>Discover the places</p></div>
+      <div class="how-arrow">↓</div>
+      <div class="how-step"><span class="how-num">3</span><p>Follow the route</p></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p><strong>Experience Korea Like Creators</strong> — follow real journeys, make them yours.</p>
+    <p class="foot-links"><a href="find.html">Find a location</a> · <a href="ranking.html">Browse by place</a> · <a href="quiz.html">Travel DNA</a> · <a href="live.html">Live graph</a></p>
+  </footer>
+
+  <script src="engine.js"></script>
+  <script src="supabase.js"></script>
+  <script src="memory.js"></script>
+  <script src="creators.js"></script>
+</body>
+</html>

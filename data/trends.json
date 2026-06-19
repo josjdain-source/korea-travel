@@ -1,0 +1,293 @@
+{
+  "updated": "2026-06-19",
+  "reference": "Seoul Korea",
+  "rising_threshold": 20,
+  "up_threshold": 8,
+  "places": {
+    "Andong": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Aria Buffet": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Bangbae-dong": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Bukhansan": {
+      "score": 0,
+      "delta": -100,
+      "trend": "down"
+    },
+    "Busan": {
+      "score": 154,
+      "delta": -25,
+      "trend": "down"
+    },
+    "Changwon": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Cheongwoo Charcoal Grilled Ribs": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Daebu-do": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Dobong-dong": {
+      "score": 0,
+      "delta": -100,
+      "trend": "down"
+    },
+    "Donghae": {
+      "score": 2,
+      "delta": -45,
+      "trend": "down"
+    },
+    "Gamcheon Culture Village": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Gangneung": {
+      "score": 3,
+      "delta": -49,
+      "trend": "down"
+    },
+    "Gimpo International Airport": {
+      "score": 0,
+      "delta": -100,
+      "trend": "down"
+    },
+    "Gongju": {
+      "score": 1,
+      "delta": 20,
+      "trend": "rising"
+    },
+    "Gwangjang Market": {
+      "score": 0,
+      "delta": -100,
+      "trend": "down"
+    },
+    "Gwangju": {
+      "score": 10,
+      "delta": -38,
+      "trend": "down"
+    },
+    "Gyeongju": {
+      "score": 9,
+      "delta": -32,
+      "trend": "down"
+    },
+    "Hongdae": {
+      "score": 4,
+      "delta": -48,
+      "trend": "down"
+    },
+    "Incheon": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Incheon International Airport": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Jangwi-dong": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Jeju": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Jeju Island": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Jeju Noodle Bar": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Jeongneung-dong": {
+      "score": 0,
+      "delta": -100,
+      "trend": "down"
+    },
+    "Jeonju": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Jeonju Hanok Village": {
+      "score": 0,
+      "delta": -100,
+      "trend": "down"
+    },
+    "Jinhae": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Kangwon-do": {
+      "score": 0,
+      "delta": -100,
+      "trend": "down"
+    },
+    "Korea": {
+      "score": 28,
+      "delta": -58,
+      "trend": "down"
+    },
+    "Korea (rural)": {
+      "score": 3,
+      "delta": -66,
+      "trend": "down"
+    },
+    "Korean countryside": {
+      "score": 0,
+      "delta": -100,
+      "trend": "down"
+    },
+    "Korean countryside (food road trip)": {
+      "score": 0,
+      "delta": -100,
+      "trend": "down"
+    },
+    "London": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Mangwon Market": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Mokpo": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Mukho Port (Donghae)": {
+      "score": 0,
+      "delta": -100,
+      "trend": "down"
+    },
+    "Myeongdong": {
+      "score": 10,
+      "delta": -35,
+      "trend": "down"
+    },
+    "Namsan": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Noryangjin Fish Market": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Paju": {
+      "score": 4,
+      "delta": -48,
+      "trend": "down"
+    },
+    "Pangyo": {
+      "score": 1,
+      "delta": -46,
+      "trend": "down"
+    },
+    "Seongnam": {
+      "score": 1,
+      "delta": -63,
+      "trend": "down"
+    },
+    "Seoul": {
+      "score": 522,
+      "delta": -34,
+      "trend": "down"
+    },
+    "Seoul (cherry blossoms)": {
+      "score": 0,
+      "delta": -100,
+      "trend": "down"
+    },
+    "Seoul (goshiwon micro-apartments)": {
+      "score": 0,
+      "delta": -100,
+      "trend": "down"
+    },
+    "Seoul (hanok village & local food)": {
+      "score": 0,
+      "delta": -100,
+      "trend": "down"
+    },
+    "Seoul City Wall": {
+      "score": 0,
+      "delta": -100,
+      "trend": "down"
+    },
+    "Sokcho": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "South Korea": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Suwon": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Taebaek": {
+      "score": 0,
+      "delta": -100,
+      "trend": "down"
+    },
+    "Tapo": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "The Shilla Seoul": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "Tongyeong": {
+      "score": 1,
+      "delta": -5,
+      "trend": "stable"
+    },
+    "Yangyang": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    },
+    "not specified": {
+      "score": 0,
+      "delta": 0,
+      "trend": "stable"
+    }
+  }
+}

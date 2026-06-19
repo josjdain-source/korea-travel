@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Find the place — K-Drama Route</title>
+  <meta name="description" content="Saw a place in a Reel, Short or YouTube clip? Find the real Korean location and how to get there." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="kicker">🔎 FIND THE PLACE</p>
+      <h1>Seen it on Instagram? <em>We'll show you where it is.</em></h1>
+      <p class="sub">That train station, tea field or seaside village from a Reel, Short or YouTube clip — drop the link (or describe it) and we'll turn it into a real place with the route from Seoul.</p>
+
+      <form class="link-box" id="link-form" autocomplete="off">
+        <input type="text" id="link-input" placeholder="Paste a Reel / Short / YouTube link — or describe what it showed…" />
+        <button type="submit">Find it →</button>
+      </form>
+      <div class="link-result" id="link-result" hidden></div>
+      <div class="nav-links">
+        <a href="index.html">← Home: follow a creator's Korea</a> &nbsp;·&nbsp;
+        <a href="ranking.html">🏆 Browse by place</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="Search and filters">
+      <input type="search" id="search" placeholder="Search a drama, movie, or place…" autocomplete="off" />
+      <div class="filter-group" id="region-filters" role="group" aria-label="Region filter"></div>
+      <div class="filter-group" id="category-filters" role="group" aria-label="Category filter">
+        <button class="chip active" data-category="all">All</button>
+        <button class="chip" data-category="drama">📺 Drama</button>
+        <button class="chip" data-category="movie">🎥 Movie</button>
+      </div>
+    </section>
+
+    <p class="result-count" id="result-count"></p>
+    <section class="grid" id="grid" aria-live="polite"></section>
+    <p class="empty" id="empty" hidden>No locations match your filters yet.</p>
+  </main>
+
+  <div class="modal" id="modal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" data-close aria-label="Close">×</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>K-Drama Route — find the place behind the clip. Data is community-curated; verify schedules and transport before you travel.</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="supabase.js"></script>
+  <script src="memory.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

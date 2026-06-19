@@ -1,0 +1,13 @@
+{
+  "_comment": "ILLUSTRATIVE identity-evolution pairs — INVENTED to demonstrate the V25 mechanism (Identity(t) → Identity(t+1)). NOT real. Real evolution needs longitudinal per-traveler records: (traveler_id, identity_before, visit, identity_after, timestamp). We have ZERO of these. flowMatrix() over these pairs is real code; the numbers are not.",
+  "transitions": [
+    { "before": "Street Flavor Hunter 🍜", "after": "Heritage Romantic 🏯" },
+    { "before": "Street Flavor Hunter 🍜", "after": "Heritage Romantic 🏯" },
+    { "before": "Street Flavor Hunter 🍜", "after": "Quiet Horizon Wanderer 🌅" },
+    { "before": "Quiet Horizon Wanderer 🌅", "after": "Heritage Romantic 🏯" },
+    { "before": "Quiet Horizon Wanderer 🌅", "after": "Heritage Romantic 🏯" },
+    { "before": "Quiet Horizon Wanderer 🌅", "after": "Hidden Path Explorer 🧭" },
+    { "before": "Heritage Romantic 🏯", "after": "Quiet Horizon Wanderer 🌅" },
+    { "before": "Aesthetic Cafe Soul ☕", "after": "Quiet Horizon Wanderer 🌅" }
+  ]
+}
