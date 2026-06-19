@@ -20,15 +20,16 @@ if not TOKEN:
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
 
-SKIP_DIRS = {"pipeline", "__pycache__", ".git", ".github", "node_modules", "이미지"}
-SKIP_EXT  = {".pyc", ".zip", ".py"}
+SKIP_DIRS  = {"pipeline", "__pycache__", ".git", ".github", "node_modules", "이미지", "backend"}
+SKIP_EXT   = {".pyc", ".zip", ".py", ".sql", ".toml", ".code-workspace"}
+SKIP_NAMES = {"ARCHITECTURE.md", "README.md"}
 
 # Collect files: {"/path": (sha256, bytes)}
 files = {}
 for root, dirs, fnames in os.walk("."):
     dirs[:] = [d for d in dirs if d not in SKIP_DIRS and not d.startswith(".")]
     for fname in fnames:
-        if any(fname.endswith(e) for e in SKIP_EXT) or fname.startswith("."):
+        if any(fname.endswith(e) for e in SKIP_EXT) or fname.startswith(".") or fname in SKIP_NAMES:
             continue
         path = os.path.join(root, fname)
         arcname = "/" + path.replace("\\", "/").lstrip("./")
