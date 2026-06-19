@@ -10,11 +10,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          apiToken: ${{ secrets.CF_TOKEN }}
-          accountId: 1feef70717b588bffa9cbe216703f20d
-          projectName: korea-travel
-          directory: .
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          python-version: "3.11"
+
+      - name: Deploy
+        env:
+          CF_TOKEN: ${{ secrets.CF_TOKEN }}
+        run: python pipeline/cf_deploy.py
