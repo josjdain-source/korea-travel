@@ -1,0 +1,16 @@
+{
+  "_comment": "Normalization gazetteer. The hard part of the 'radar' isn't crawling — it's mapping many different free-text mentions of the same spot to ONE canonical place so creator counts aggregate correctly. Looser aliases (e.g. bare 'jeonju') raise recall but lower precision; that tradeoff IS the 'extraction accuracy' problem.",
+  "places": [
+    {"canonical":"Jeonju Hanok Village","city":"Jeonju","region":"Jeonbuk","aliases":["jeonju hanok","hanok village jeonju","jeonju bibimbap","jeonju makgeolli","jeonju"]},
+    {"canonical":"Gyeongju Historic Area","city":"Gyeongju","region":"Gyeongbuk","aliases":["gyeongju","cheonmachong","daereungwon","bulguksa"]},
+    {"canonical":"Andong (Hahoe & Old Town)","city":"Andong","region":"Gyeongbuk","aliases":["andong","hahoe"]},
+    {"canonical":"Boseong Green Tea Fields","city":"Boseong","region":"Jeonnam","aliases":["boseong","daehan dawon","green tea field"]},
+    {"canonical":"Gangneung (Coast & City)","city":"Gangneung","region":"Gangwon","aliases":["gangneung","jumunjin","anmok"]},
+    {"canonical":"Sokcho (Markets & Coast)","city":"Sokcho","region":"Gangwon","aliases":["sokcho","abai village"]},
+    {"canonical":"Yeosu (Coast)","city":"Yeosu","region":"Jeonnam","aliases":["yeosu"]},
+    {"canonical":"Gunsan Saemangeum Seafood Market","city":"Gunsan","region":"Jeonbuk","aliases":["saemangeum","gunsan seafood","gunsan fish market"]},
+    {"canonical":"Gunsan Retro Old Town","city":"Gunsan","region":"Jeonbuk","aliases":["gunsan retro","gunsan old town","gunsan"]},
+    {"canonical":"Tongyeong (South Coast)","city":"Tongyeong","region":"Gyeongnam","aliases":["tongyeong"]},
+    {"canonical":"Damyang Juknokwon Bamboo Forest","city":"Damyang","region":"Jeonnam","aliases":["juknokwon","damyang bamboo"]}
+  ]
+}

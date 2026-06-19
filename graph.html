@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Identity Graph — K-Drama Route</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="kicker">🌐 IDENTITY GRAPH (V20)</p>
+      <h1>One identity. <em>Any country.</em></h1>
+      <p class="sub">Places are just coordinates. The engine matches your travel identity to places by their action profile — so the same identity finds its spots in Korea, Japan, Taiwan, anywhere. The country is swappable; the identity isn't.</p>
+      <div class="nav-links"><a href="quiz.html">🧭 Take the quiz first →</a> &nbsp;·&nbsp; <a href="ranking.html">← Ranking</a></div>
+    </div>
+  </header>
+  <main>
+    <section class="exp-chooser"><p class="exp-label">Show places for identity:</p><div class="filter-group" id="id-filters"></div></section>
+    <div id="graph-main"></div>
+  </main>
+  <footer><p>Korea places come from real creator visits (data/visits.json). International places are <strong>illustrative manual profiles</strong> (data/places_intl.json) — included only to show the engine is country-agnostic, not as verified data.</p></footer>
+  <script src="engine.js"></script>
+  <script src="supabase.js"></script>
+  <script src="memory.js"></script>
+  <script src="graph.js"></script>
+</body>
+</html>

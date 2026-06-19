@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What kind of traveler are you? — K-Drama Route</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="kicker">🧭 TRAVELER DNA</p>
+      <h1>What kind of traveler <em>are you?</em></h1>
+      <p class="sub">Don't tell us where you want to go — tell us how you travel. Answer as many as you like (even a few is enough) and we'll show your travel DNA, then match you to the global creators who travel like you (and the Korean places they love).</p>
+      <div class="nav-links"><a href="ranking.html">← Back to the ranking</a></div>
+    </div>
+  </header>
+  <main>
+    <form id="quiz"></form>
+    <button id="submit" class="map-btn" type="button" disabled>See my Traveler DNA →</button>
+    <section id="result" hidden></section>
+  </main>
+  <footer><p>Matching runs in the same action vector space as Creator DNA and Place DNA. Small seed dataset — directional, not definitive.</p></footer>
+  <script src="engine.js"></script>
+  <script src="supabase.js"></script>
+  <script src="memory.js"></script>
+  <script src="quiz.js"></script>
+</body>
+</html>

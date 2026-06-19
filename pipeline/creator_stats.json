@@ -1,0 +1,156 @@
+{
+  "mark-wiens": {
+    "country": "US",
+    "scanned": 20,
+    "korea": 0,
+    "skip": 20,
+    "error": 0
+  },
+  "drew-binsky": {
+    "country": "US",
+    "scanned": 20,
+    "korea": 0,
+    "skip": 19,
+    "error": 0
+  },
+  "yes-theory": {
+    "country": "US",
+    "scanned": 20,
+    "korea": 0,
+    "skip": 20,
+    "error": 0
+  },
+  "kara-and-nate": {
+    "country": "US",
+    "scanned": 20,
+    "korea": 0,
+    "skip": 20,
+    "error": 0
+  },
+  "wolters-world": {
+    "country": "US",
+    "scanned": 20,
+    "korea": 0,
+    "skip": 20,
+    "error": 0
+  },
+  "strictly-dumpling": {
+    "country": "US",
+    "scanned": 20,
+    "korea": 2,
+    "skip": 13,
+    "error": 0
+  },
+  "the-food-ranger": {
+    "country": "CA",
+    "scanned": 20,
+    "korea": 0,
+    "skip": 20,
+    "error": 0
+  },
+  "korean-englishman": {
+    "country": "UK",
+    "scanned": 20,
+    "korea": 16,
+    "skip": 4,
+    "error": 0
+  },
+  "noel-philips": {
+    "country": "UK",
+    "scanned": 20,
+    "korea": 0,
+    "skip": 20,
+    "error": 0
+  },
+  "indigo-traveller": {
+    "country": "AU",
+    "scanned": 20,
+    "korea": 0,
+    "skip": 20,
+    "error": 0
+  },
+  "fearless-and-far": {
+    "country": "AU",
+    "scanned": 20,
+    "korea": 0,
+    "skip": 20,
+    "error": 0
+  },
+  "paolo-fromtokyo": {
+    "country": "JP",
+    "scanned": 20,
+    "korea": 0,
+    "skip": 20,
+    "error": 0
+  },
+  "abroad-in-japan": {
+    "country": "JP",
+    "scanned": 20,
+    "korea": 0,
+    "skip": 20,
+    "error": 0
+  },
+  "best-ever-food": {
+    "country": "VN",
+    "scanned": 20,
+    "korea": 0,
+    "skip": 20,
+    "error": 0
+  },
+  "eatyourkimchi": {
+    "country": "CA",
+    "scanned": 20,
+    "korea": 0,
+    "skip": 20,
+    "error": 0
+  },
+  "joel-bennett": {
+    "country": "UK",
+    "scanned": 20,
+    "korea": 10,
+    "skip": 7,
+    "error": 0
+  },
+  "2hearts1seoul": {
+    "country": "US",
+    "scanned": 20,
+    "korea": 12,
+    "skip": 6,
+    "error": 0
+  },
+  "igobart": {
+    "country": "PL",
+    "scanned": 20,
+    "korea": 17,
+    "skip": 3,
+    "error": 0
+  },
+  "gap-year-at-30": {
+    "country": "UK",
+    "scanned": 20,
+    "korea": 0,
+    "skip": 20,
+    "error": 0
+  },
+  "lost-then-found": {
+    "country": "US",
+    "scanned": 20,
+    "korea": 14,
+    "skip": 5,
+    "error": 0
+  },
+  "amyah-maze": {
+    "country": "US",
+    "scanned": 20,
+    "korea": 14,
+    "skip": 4,
+    "error": 0
+  },
+  "cari-cakes": {
+    "country": "US",
+    "scanned": 20,
+    "korea": 7,
+    "skip": 9,
+    "error": 0
+  }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Graph Query — K-Drama Route</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="kicker">🔎 GRAPH QUERY (V22)</p>
+      <h1>Ask the <em>behavior graph.</em></h1>
+      <p class="sub">Every node — traveler, action, emotion, identity, tribe, creator, place — lives in one coordinate system, so you can query the relationships, not just get a recommendation. Recommendation → Explanation → Query.</p>
+      <div class="nav-links"><a href="ranking.html">← Ranking</a></div>
+    </div>
+  </header>
+  <main>
+    <section class="exp-chooser"><p class="exp-label">Ask:</p><div class="filter-group" id="q-types"></div></section>
+    <div id="q-control" class="q-control"></div>
+    <div id="q-result"></div>
+  </main>
+  <footer><p>Queries run over real creator-visit vectors. "Also-visited" = co-visitation (association), not time-ordered "went next" — sequence & recency need timestamped traveler data (backend, V18).</p></footer>
+  <script src="engine.js"></script>
+  <script src="query.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+[
+  {
+    "creatorId": "mark-wiens",
+    "place": "Tongyeong (South Coast)",
+    "city": "Tongyeong",
+    "region": "Gyeongnam",
+    "spot": "Korean SEAFOOD Heaven in Tongyeong 🇰🇷",
+    "views": 1500000,
+    "reason": "food",
+    "videoUrl": "https://youtu.be/EXAMPLE1",
+    "confidence": "low",
+    "sources": [
+      "https://youtu.be/EXAMPLE1"
+    ]
+  },
+  {
+    "creatorId": "next-stop-korea",
+    "place": "Damyang Juknokwon Bamboo Forest",
+    "city": "Damyang",
+    "region": "Jeonnam",
+    "spot": "A perfect day trip from Seoul 🇰🇷",
+    "views": 8000,
+    "reason": "nature",
+    "videoUrl": "https://youtu.be/EXAMPLE2",
+    "confidence": "low",
+    "sources": [
+      "https://youtu.be/EXAMPLE2"
+    ]
+  }
+]

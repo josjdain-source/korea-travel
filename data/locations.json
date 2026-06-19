@@ -1,0 +1,308 @@
+[
+  {
+    "id": "hahoe-folk-village",
+    "nameEn": "Hahoe Folk Village",
+    "nameKo": "하회마을",
+    "city": "Andong",
+    "cityKo": "안동",
+    "region": "Gyeongbuk",
+    "category": "drama",
+    "titles": [
+      {"titleEn": "Revenant", "titleKo": "악귀", "year": 2023}
+    ],
+    "description": "A 600-year-old UNESCO World Heritage village of the Pungsan Ryu clan set on a bend of the Nakdong River, with preserved thatched and tiled traditional houses. Famous for its mask dance and the Seonyu Julbul Nori firework festival.",
+    "gettingThere": "From Seoul, take the KTX-Eum from Cheongnyangni Station to Andong Station (~2h10m), then Bus #46 or the Hahoe shuttle from Andong (~40-60 min). ~3.5-4 hours total.",
+    "nearby": ["Buyongdae Cliff (across the river)", "Hahoe Mask Museum at the village entrance"],
+    "bestTime": "Autumn for foliage, or evenings during the Seonyu Julbul Nori firework festival; weekday mornings are quietest.",
+    "photoTip": "Cross the river by ferry to Buyongdae Cliff for the postcard panorama of the whole village wrapped by the Nakdong River.",
+    "whyFamous": "A UNESCO village that doubles as a live-action backdrop for period dramas; the river-and-village panorama is instantly recognisable.",
+    "difficulty": "moderate",
+    "visits": [],
+    "lat": 36.539,
+    "lng": 128.518,
+    "confidence": "high",
+    "sources": [
+      "https://m.kukinews.com/article/view/kuk202308220113",
+      "https://www.khan.co.kr/article/202505231110011"
+    ]
+  },
+  {
+    "id": "buyongdae-cliff",
+    "nameEn": "Buyongdae Cliff",
+    "nameKo": "부용대",
+    "city": "Andong",
+    "cityKo": "안동",
+    "region": "Gyeongbuk",
+    "category": "drama",
+    "titles": [
+      {"titleEn": "Detective K: Secret of the Lost Island", "titleKo": "조선명탐정: 사라진 놉의 딸", "year": 2015},
+      {"titleEn": "Hwang Jini", "titleKo": "황진이", "year": 2006},
+      {"titleEn": "Chuno (The Slave Hunters)", "titleKo": "추노", "year": 2010}
+    ],
+    "description": "A 64-meter cliff facing Hahoe Village across the Nakdong River, offering the classic panoramic view of the village. A longtime favorite backdrop for historical films and dramas.",
+    "gettingThere": "From Seoul, take the KTX-Eum from Cheongnyangni to Andong Station (~2h10m), then bus/shuttle to Hahoe; the cliff is across the river from the village via a walking trail. ~4 hours total.",
+    "nearby": ["Hahoe Folk Village", "Okyeonjeongsa pavilion at the cliff base"],
+    "lat": 36.543,
+    "lng": 128.516,
+    "confidence": "medium",
+    "sources": [
+      "https://www.yeongnam.com/web/view.php?key=20201018010002028",
+      "https://www.kmib.co.kr/article/view.asp?arcid=0924160714"
+    ]
+  },
+  {
+    "id": "byeongsan-seowon",
+    "nameEn": "Byeongsan Seowon Confucian Academy",
+    "nameKo": "병산서원",
+    "city": "Andong",
+    "cityKo": "안동",
+    "region": "Gyeongbuk",
+    "category": "movie",
+    "titles": [
+      {"titleEn": "Chihwaseon (Painted Fire)", "titleKo": "취화선", "year": 2002},
+      {"titleEn": "Portrait of a Beauty", "titleKo": "미인도", "year": 2008},
+      {"titleEn": "The Sound of a Flower", "titleKo": "도리화가", "year": 2015}
+    ],
+    "description": "A scenic Joseon-era Confucian academy (a UNESCO World Heritage 'Seowon' site) overlooking the Nakdong River, celebrated for its Mandaeru pavilion and considered one of Korea's most beautiful seowon.",
+    "gettingThere": "From Seoul, take the KTX-Eum from Cheongnyangni to Andong Station (~2h10m); from Hahoe Village it is ~10 min by taxi via a narrow road, or a seasonal shuttle. ~4 hours total.",
+    "nearby": ["Hahoe Folk Village", "Buyongdae Cliff"],
+    "lat": 36.5285,
+    "lng": 128.557,
+    "confidence": "medium",
+    "sources": [
+      "https://www.yeongnam.com/web/view.php?key=20201018010002028"
+    ]
+  },
+  {
+    "id": "andong-all-of-us-are-dead-school",
+    "nameEn": "Andong Seonghee Girls' High School (Hyosan High School)",
+    "nameKo": "안동 성희여자고등학교",
+    "city": "Andong",
+    "cityKo": "안동",
+    "region": "Gyeongbuk",
+    "category": "drama",
+    "titles": [
+      {"titleEn": "All of Us Are Dead", "titleKo": "지금 우리 학교는", "year": 2022}
+    ],
+    "description": "A real Andong high school whose riverside campus served as the exterior of 'Hyosan High School' in the global hit zombie series. Note it is a functioning school, so view from outside and respect class hours.",
+    "gettingThere": "From Seoul, take the KTX-Eum from Cheongnyangni to Andong Station (~2h10m), then a short local taxi or bus within Andong city. ~2.5-3 hours total.",
+    "nearby": ["Wolyeonggyo Bridge (Korea's longest wooden footbridge)", "Andong city center and Nakdong River walks"],
+    "bestTime": "Weekends or after school hours — it's a working school, so avoid disrupting students.",
+    "photoTip": "Frame the school building exterior from the street, the way the show's establishing shots did — stay outside the fence.",
+    "whyFamous": "The 2022 Netflix #1 zombie hit 'All of Us Are Dead' made this ordinary riverside school globally recognisable overnight.",
+    "difficulty": "easy",
+    "visits": [],
+    "lat": 36.56,
+    "lng": 128.725,
+    "confidence": "high",
+    "sources": [
+      "https://www.kyongbuk.co.kr/news/articleView.html?idxno=2093235",
+      "https://m.yeongnam.com/view.php?key=20220130010003659"
+    ]
+  },
+  {
+    "id": "mungyeong-saejae-open-set",
+    "nameEn": "Mungyeong Saejae Open Film Set",
+    "nameKo": "문경새재 오픈세트장",
+    "city": "Mungyeong",
+    "cityKo": "문경",
+    "region": "Gyeongbuk",
+    "category": "drama",
+    "titles": [
+      {"titleEn": "The Moon Embracing the Sun", "titleKo": "해를 품은 달", "year": 2012},
+      {"titleEn": "Kingdom", "titleKo": "킹덤", "year": 2019},
+      {"titleEn": "The Red Sleeve", "titleKo": "옷소매 붉은 끝동", "year": 2021},
+      {"titleEn": "The King's Affection", "titleKo": "연모", "year": 2021},
+      {"titleEn": "Under the Queen's Umbrella", "titleKo": "슈룹", "year": 2022},
+      {"titleEn": "The Face Reader", "titleKo": "관상", "year": 2013}
+    ],
+    "description": "Korea's largest historical-drama (sageuk) backlot: a 70,000-square-meter recreated Joseon-era palace-and-town complex of about 130 buildings inside Mungyeong Saejae Provincial Park. Visitors can try on royal costumes.",
+    "gettingThere": "No direct KTX to Mungyeong town. Take an intercity bus from Dong-Seoul Bus Terminal to Mungyeong (~2h), then a local taxi/bus to Mungyeong Saejae (~15 min). ~2.5-3 hours total.",
+    "nearby": ["Mungyeong Rail Bike along the Yeonggang River", "Cafe Gaeun Station (a converted disused railway station)"],
+    "bestTime": "Spring and autumn for mild weather; arrive early to shoot the palace gates before tour groups fill the courtyards.",
+    "photoTip": "Rent a royal hanbok at the entrance and frame yourself against the main palace gate or throne hall — the exact backdrops used in the sageuk dramas.",
+    "whyFamous": "As Korea's biggest sageuk backlot, almost every famous historical drama (Kingdom, The Red Sleeve, Under the Queen's Umbrella) has shot here — fans come to walk the actual palace sets.",
+    "difficulty": "moderate",
+    "visits": [],
+    "lat": 36.7617,
+    "lng": 128.077,
+    "confidence": "high",
+    "sources": [
+      "https://www.gbmg.go.kr/tour/contents.do?mId=0206020100",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=174799"
+    ]
+  },
+  {
+    "id": "suncheon-drama-film-set",
+    "nameEn": "Suncheon Open Film Set",
+    "nameKo": "순천 드라마촬영장",
+    "city": "Suncheon",
+    "cityKo": "순천",
+    "region": "Jeonnam",
+    "category": "drama",
+    "titles": [
+      {"titleEn": "Love and Ambition", "titleKo": "사랑과 야망", "year": 2006},
+      {"titleEn": "East of Eden", "titleKo": "에덴의 동쪽", "year": 2008},
+      {"titleEn": "Baker King Kim Tak-gu", "titleKo": "제빵왕 김탁구", "year": 2010},
+      {"titleEn": "Giant", "titleKo": "자이언트", "year": 2010},
+      {"titleEn": "Pachinko", "titleKo": "파친코", "year": 2022},
+      {"titleEn": "Wolf Boy", "titleKo": "늑대소년", "year": 2012}
+    ],
+    "description": "Korea's largest open film set recreating 1950s-80s Korea across three zones: a 1960s Suncheon township, a 1970s Seoul hillside shantytown, and a 1980s suburban street. Built in 2006 for the drama 'Love and Ambition.'",
+    "gettingThere": "From Seoul, take the KTX from Yongsan Station to Suncheon Station (~2.5-3h), then a local taxi (~10 min) or city bus to the set. ~3-3.5 hours total.",
+    "nearby": ["Suncheon Bay National Garden (Korea's first national garden)", "Suncheonman Bay Wetland reed fields"],
+    "lat": 34.933,
+    "lng": 127.52,
+    "confidence": "high",
+    "sources": [
+      "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=15102",
+      "https://movieweb.com/k-dramas-filmed-at-suncheon-drama-set/"
+    ]
+  },
+  {
+    "id": "boseong-green-tea-field",
+    "nameEn": "Boseong Green Tea Field (Daehan Dawon)",
+    "nameKo": "보성 대한다원 녹차밭",
+    "city": "Boseong",
+    "cityKo": "보성",
+    "region": "Jeonnam",
+    "category": "drama",
+    "titles": [
+      {"titleEn": "Summer Scent", "titleKo": "여름향기", "year": 2003},
+      {"titleEn": "The Legend of the Blue Sea", "titleKo": "푸른 바다의 전설", "year": 2016}
+    ],
+    "description": "Korea's most famous tourist tea plantation, founded in 1939, with rows of emerald terraced tea bushes climbing a hillside lined with towering cedar trees. Its cedar-lined entrance path is one of the most-photographed scenes in Korean media.",
+    "gettingThere": "From Seoul, take the KTX to Gwangju-Songjeong Station (~1h40m), transfer to U-Square Terminal for an intercity bus to Boseong, then a ~15-min taxi to the plantation; or a direct express bus from Seoul Central City Terminal (~5.5h). ~4-5.5 hours total.",
+    "nearby": ["Yulpo Beach with a green-tea seawater spa (~10 km)", "Beolgyo cockle-clam (kkomak) restaurants"],
+    "bestTime": "Late April to June, when the tea bushes are vivid green; early morning avoids crowds and harsh midday glare.",
+    "photoTip": "The signature shot is the towering cedar-lined entrance path, framed straight down the avenue; climb the hillside paths for the layered terraced-tea panorama.",
+    "whyFamous": "Decades of dramas, films and ads have made its cedar-lined tea path the default 'green Korea' image — it trends every spring.",
+    "difficulty": "easy",
+    "visits": [],
+    "lat": 34.715351,
+    "lng": 127.080894,
+    "confidence": "high",
+    "sources": [
+      "https://www.namdokorea.com/tour/drama/dramaView.do?dramaId=0000000019&language=EN",
+      "https://v.daum.net/v/u2DyCDYcMY"
+    ]
+  },
+  {
+    "id": "namhae-german-village",
+    "nameEn": "Namhae German Village",
+    "nameKo": "남해 독일마을",
+    "city": "Namhae",
+    "cityKo": "남해",
+    "region": "Gyeongnam",
+    "category": "movie",
+    "titles": [
+      {"titleEn": "Ode to My Father", "titleKo": "국제시장", "year": 2014},
+      {"titleEn": "Fantastic Couple", "titleKo": "환상의 커플", "year": 2006}
+    ],
+    "description": "A hillside village of red-roofed German-style houses built from the early 2000s by Korean 'Gastarbeiter' miners and nurses who worked in Germany in the 1960s-70s and returned home. It overlooks Mulgeon Bay and hosts an autumn Oktoberfest.",
+    "gettingThere": "No KTX serves Namhae. Take an intercity bus from Seoul Nambu (or Central City) Terminal to Namhae Bus Terminal (~4.5h), then the local Namhae-Mijo bus or a ~15-20 min taxi to the village. ~5 hours total.",
+    "nearby": ["Mulgeon Coastal Forest (a protected old-growth windbreak forest)", "German restaurants and craft-beer pubs in the village"],
+    "lat": 34.79889,
+    "lng": 128.04,
+    "confidence": "medium",
+    "sources": [
+      "https://www.namhae.go.kr/tour/00007/00014/00057.web",
+      "https://www.namhae.go.kr/news/pgnews/View.do?seq=5616"
+    ]
+  },
+  {
+    "id": "gacheon-daraengi-village",
+    "nameEn": "Gacheon Daraengi (Terraced Rice) Village",
+    "nameKo": "가천 다랭이마을",
+    "city": "Namhae",
+    "cityKo": "남해",
+    "region": "Gyeongnam",
+    "category": "movie",
+    "titles": [
+      {"titleEn": "Barefoot Gi-bong", "titleKo": "맨발의 기봉이", "year": 2006}
+    ],
+    "description": "A dramatic coastal hamlet where over 100 stone-walled terraced rice paddies cascade down a steep slope from Seolheulsan Mountain straight to the sea. A designated Scenic Site with a 1-hour walking loop.",
+    "gettingThere": "No KTX serves Namhae. Take an intercity bus from Seoul to Namhae Bus Terminal (~4.5h), then a local Nam-myeon bus or a ~25-30 min taxi. ~5 hours total.",
+    "nearby": ["Boriam Hermitage on Geumsan Mountain (a famous sea-view prayer site)", "Local cafes and makgeolli houses serving seafood"],
+    "lat": 34.726531,
+    "lng": 127.893683,
+    "confidence": "high",
+    "sources": [
+      "https://www.namhae.go.kr/tour/00129.web",
+      "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/locIntrdnList.do?vcontsId=90688"
+    ]
+  },
+  {
+    "id": "jumunjin-breakwater",
+    "nameEn": "Jumunjin Breakwater",
+    "nameKo": "주문진 방파제",
+    "city": "Gangneung",
+    "cityKo": "강릉",
+    "region": "Gangwon",
+    "category": "drama",
+    "titles": [
+      {"titleEn": "Goblin (Guardian: The Lonely and Great God)", "titleKo": "도깨비", "year": 2016}
+    ],
+    "description": "A curved stone jetty extending into the sea at Jumunjin Beach in northern Gangneung, site of the iconic scene where Ji Eun-tak summons the goblin by blowing out birthday candles. Fans recreate the scene with a red scarf and buckwheat flowers.",
+    "gettingThere": "From Seoul, take the KTX from Seoul or Cheongnyangni Station to Gangneung Station (~1h50m), then local bus 302-1 toward Jumunjin (~50 min) or a taxi (~20 min). ~3 hours total.",
+    "nearby": ["'1637' seaside cafe", "Haerang Seafood Restaurant (abalone porridge)"],
+    "bestTime": "Sunrise — this is one of the east coast's most famous sunrise spots, and the soft morning light matches the drama's mood.",
+    "photoTip": "Stand on the breakwater facing the sea and recreate the famous 'Goblin' scene — fans bring a red scarf and a small bouquet of buckwheat flowers for the same frame.",
+    "whyFamous": "It exploded after the 2016 megahit 'Goblin' — the candle-blowing scene shot here became one of K-drama's most recreated moments.",
+    "difficulty": "easy",
+    "visits": [],
+    "lat": 37.9,
+    "lng": 128.83,
+    "confidence": "high",
+    "sources": [
+      "https://www.trazy.com/spot/3567",
+      "https://seheeintheworld.com/jumunjin-drama-goblin-filming-location/"
+    ]
+  },
+  {
+    "id": "gunsan-chowon-photo-studio",
+    "nameEn": "Chowon Photo Studio",
+    "nameKo": "초원사진관",
+    "city": "Gunsan",
+    "cityKo": "군산",
+    "region": "Jeonbuk",
+    "category": "movie",
+    "titles": [
+      {"titleEn": "Christmas in August", "titleKo": "8월의 크리스마스", "year": 1998}
+    ],
+    "description": "A recreated single-story photo studio that was the main setting of the classic melodrama 'Christmas in August.' Rebuilt by Gunsan City as a free attraction displaying original props; staff will email visitors their photos.",
+    "gettingThere": "No direct KTX to Gunsan. Take a Saemaeul/Mugunghwa train from Yongsan Station to Gunsan Station (~3h-3h20m), then a local bus or taxi (~15-20 min) to the old town. ~3.5 hours total.",
+    "nearby": ["Hirotsu House (Japanese colonial-era house)", "Gyeongam-dong Railroad Village"],
+    "lat": 35.98,
+    "lng": 126.71,
+    "confidence": "high",
+    "sources": [
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=15085",
+      "https://en.namu.wiki/w/%EC%B4%88%EC%9B%90%EC%82%AC%EC%A7%84%EA%B4%80"
+    ]
+  },
+  {
+    "id": "gunsan-hirotsu-house",
+    "nameEn": "Hirotsu House (Sinheung-dong Japanese-style House)",
+    "nameKo": "군산 신흥동 일본식가옥",
+    "city": "Gunsan",
+    "cityKo": "군산",
+    "region": "Jeonbuk",
+    "category": "movie",
+    "titles": [
+      {"titleEn": "The General's Son", "titleKo": "장군의 아들", "year": 1990},
+      {"titleEn": "Fighter in the Wind", "titleKo": "바람의 파이터", "year": 2004},
+      {"titleEn": "Tazza: The High Rollers", "titleKo": "타짜", "year": 2006}
+    ],
+    "description": "A well-preserved two-story Japanese colonial-era timber house with original interiors and a Japanese garden, designated National Registered Cultural Heritage in 2005. Frequently used for period and gangster films.",
+    "gettingThere": "No direct KTX to Gunsan. Take a Saemaeul/Mugunghwa train from Yongsan to Gunsan Station (~3h), then a taxi/bus (~15 min); it sits within walking distance of Chowon Photo Studio. ~3.5 hours total.",
+    "nearby": ["Chowon Photo Studio", "Dongguksa Temple"],
+    "lat": 35.98,
+    "lng": 126.71,
+    "confidence": "high",
+    "sources": [
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=74406",
+      "https://gunsan.grandculture.net/gunsan/toc/GC05701871"
+    ]
+  }
+]

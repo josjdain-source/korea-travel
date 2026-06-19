@@ -1,0 +1,4 @@
+pipeline/.env
+pipeline/processed.json
+pipeline/__pycache__/
+*.pyc

@@ -1,0 +1,11 @@
+{
+  "_comment": "ILLUSTRATIVE international place profiles — manually action-tagged to DEMONSTRATE the country-agnostic Identity Graph (V20). These are NOT creator-verified visits like data/visits.json (Korea). They exist only to show the same engine recommends across countries when place action-profiles are supplied. Replace with real, sourced data per country before any production use.",
+  "places": [
+    { "place": "Kamakura", "country": "Japan", "actions": ["Walk the coast 🌊", "Explore traditional spots 🏯", "Cafe hopping ☕"] },
+    { "place": "Onomichi", "country": "Japan", "actions": ["Walk the coast 🌊", "Cafe hopping ☕", "Sightseeing 🧭"] },
+    { "place": "Kyoto (Higashiyama)", "country": "Japan", "actions": ["Explore traditional spots 🏯", "Photo spots 📸"] },
+    { "place": "Hualien (Taroko)", "country": "Taiwan", "actions": ["Nature walk 🌿", "Catch the sunrise 🌅"] },
+    { "place": "Jiufen", "country": "Taiwan", "actions": ["Browse the market 🛍️", "Cafe hopping ☕", "Explore traditional spots 🏯"] },
+    { "place": "Tainan", "country": "Taiwan", "actions": ["Eat local food 🍜", "Browse the market 🛍️"] }
+  ]
+}
