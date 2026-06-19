@@ -1,0 +1,35 @@
+name: Site Health Check
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # 6시간마다
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check sites
+        run: |
+          check() {
+            local url=$1
+            local name=$2
+            local code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 "$url")
+            if [ "$code" != "200" ]; then
+              echo "FAIL $name → $url (HTTP $code)"
+              echo "fail=true" >> $GITHUB_ENV
+            else
+              echo "OK   $name ($code)"
+            fi
+          }
+
+          check "https://josjdain-source.github.io/korea-travel/" "GitHub Pages"
+          check "https://korea-travel-git.pages.dev/" "Cloudflare Pages"
+          check "https://korea-travel-git.pages.dev/ranking.html" "Ranking page"
+          check "https://korea-travel-git.pages.dev/data/visits.json" "Data API"
+
+      - name: Fail if any site is down
+        if: env.fail == 'true'
+        run: |
+          echo "One or more sites are DOWN. Check the logs above."
+          exit 1
