@@ -190,7 +190,8 @@ function sceneStripHtml(v) {
     const err = fb
       ? `onerror="if(!this._fb){this._fb=1;this.src='${fb}'}else{this.parentElement.style.display='none'}"`
       : `onerror="this.parentElement.style.display='none'"`;
-    return `<div class="sc-cut"><a href="${v.videoUrl}" target="_blank" rel="noopener"><img src="${url}" alt="" loading="lazy" ${err} /></a>${cap}</div>`;
+    const href = m?.timestamp ? `${v.videoUrl}&t=${m.timestamp}` : v.videoUrl;
+    return `<div class="sc-cut"><a href="${href}" target="_blank" rel="noopener"><img src="${url}" alt="" loading="lazy" ${err} /></a>${cap}</div>`;
   }).join("");
   return `<div class="scene-strip">${cuts}</div>`;
 }

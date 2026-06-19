@@ -62,40 +62,50 @@ function thumbImg(tv, cls) {
   return `<img class="${cls}" src="${max}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${hq}'" />`;
 }
 
+const MONTHS = [“Jan”,”Feb”,”Mar”,”Apr”,”May”,”Jun”,”Jul”,”Aug”,”Sep”,”Oct”,”Nov”,”Dec”];
+function fmtDate(ym) {
+  if (!ym) return “”;
+  const [y, m] = ym.split(“-”);
+  const mo = MONTHS[parseInt(m, 10) - 1] || “”;
+  return mo ? `${mo} ${y}` : y;
+}
+
 function featuredHtml(x) {
-  const { c, identity, cities, topVideo } = x;
+  const { c, identity, cities, topVideo, latest } = x;
   const route = `route.html?creator=${encodeURIComponent(c.id)}`;
+  const dateStr = fmtDate(latest);
   return `
-    <article class="featured-creator video-card">
-      <a class="vc-thumb-link" href="${route}">${thumbImg(topVideo, "featured-thumb")}</a>
-      <div class="featured-body">
-        <p class="identity-pre">Follow how they experienced Korea</p>
-        <h2>${esc(c.name)}'s Korea</h2>
-        ${topVideo && topVideo.title ? `<p class="vc-title">“${esc(topVideo.title)}”</p>` : ""}
-        <p class="journey-path">${pathOf(cities, 4)}</p>
-        <div class="vc-actions">
-          ${topVideo ? `<a class="map-btn ghost-btn" href="${topVideo.url}" target="_blank" rel="noopener">▶ Original video</a>` : ""}
-          <a class="map-btn" href="${route}">🗺 Follow this journey →</a>
+    <article class=”featured-creator video-card”>
+      <a class=”vc-thumb-link” href=”${route}”>${thumbImg(topVideo, “featured-thumb”)}</a>
+      <div class=”featured-body”>
+        <p class=”identity-pre”>Follow how they experienced Korea</p>
+        <h2>${esc(c.name)}'s Korea${dateStr ? `<span class=”upload-date”>${esc(dateStr)}</span>` : “”}</h2>
+        ${topVideo && topVideo.title ? `<p class=”vc-title”>”${esc(topVideo.title)}”</p>` : “”}
+        <p class=”journey-path”>${pathOf(cities, 4)}</p>
+        <div class=”vc-actions”>
+          ${topVideo ? `<a class=”map-btn ghost-btn” href=”${topVideo.url}” target=”_blank” rel=”noopener”>▶ Original video</a>` : “”}
+          <a class=”map-btn” href=”${route}”>🗺 Follow this journey →</a>
         </div>
       </div>
     </article>`;
 }
 
 function cardHtml(x) {
-  const { c, identity, cities, topVideo } = x;
-  const dominant = identity ? identity.name : "Explorer 🧭";
+  const { c, identity, cities, topVideo, latest } = x;
+  const dominant = identity ? identity.name : “Explorer 🧭”;
   const route = `route.html?creator=${encodeURIComponent(c.id)}`;
+  const dateStr = fmtDate(latest);
   return `
-    <article class="card video-card">
-      <a class="vc-thumb-link" href="${route}">${thumbImg(topVideo, "creator-thumb")}</a>
-      <div class="vc-body">
-        <span class="badge">${esc(c.country || "")}</span>
-        <h3><a href="${route}">${esc(c.name)}'s Korea</a></h3>
-        ${topVideo && topVideo.title ? `<p class="vc-title">“${esc(topVideo.title)}”</p>` : `<p class="archetype">${esc(dominant)}</p>`}
-        <p class="journey-path">${pathOf(cities, 3)}</p>
-        <div class="vc-actions">
-          ${topVideo ? `<a class="map-btn ghost-btn" href="${topVideo.url}" target="_blank" rel="noopener">▶ Original</a>` : ""}
-          <a class="map-btn" href="${route}">🗺 Follow journey</a>
+    <article class=”card video-card”>
+      <a class=”vc-thumb-link” href=”${route}”>${thumbImg(topVideo, “creator-thumb”)}</a>
+      <div class=”vc-body”>
+        <span class=”badge”>${esc(c.country || “”)}</span>${dateStr ? `<span class=”upload-date”>${esc(dateStr)}</span>` : “”}
+        <h3><a href=”${route}”>${esc(c.name)}'s Korea</a></h3>
+        ${topVideo && topVideo.title ? `<p class=”vc-title”>”${esc(topVideo.title)}”</p>` : `<p class=”archetype”>${esc(dominant)}</p>`}
+        <p class=”journey-path”>${pathOf(cities, 3)}</p>
+        <div class=”vc-actions”>
+          ${topVideo ? `<a class=”map-btn ghost-btn” href=”${topVideo.url}” target=”_blank” rel=”noopener”>▶ Original</a>` : “”}
+          <a class=”map-btn” href=”${route}”>🗺 Follow journey</a>
         </div>
       </div>
     </article>`;
