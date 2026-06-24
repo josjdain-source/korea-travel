@@ -23,10 +23,12 @@ jobs:
             fi
           }
 
-          check "https://josjdain-source.github.io/korea-travel/" "GitHub Pages"
-          check "https://korea-travel-git.pages.dev/" "Cloudflare Pages"
-          check "https://korea-travel-git.pages.dev/ranking.html" "Ranking page"
-          check "https://korea-travel-git.pages.dev/data/visits.json" "Data API"
+          # 단일 현실 좌표 = korea-travel-git (CF git연동 자동배포). 다른 출구는 폐기됨.
+          # 클린 URL로 점검(.html은 CF가 308 정규화하므로 200이 안 나옴).
+          check "https://korea-travel-git.pages.dev/"                 "home"
+          check "https://korea-travel-git.pages.dev/creators"         "creators (loop guard)"
+          check "https://korea-travel-git.pages.dev/ranking"          "ranking"
+          check "https://korea-travel-git.pages.dev/data/visits.json" "data"
 
       - name: Fail if any site is down
         if: env.fail == 'true'

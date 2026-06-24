@@ -39,4 +39,5 @@ jobs:
             git commit -m "chore(pipeline): auto-update visits $(date +%Y-%m-%d)" && \
             git push
 
-      # GitHub Pages + Cloudflare Pages auto-deploy via deploy.yml on git push
+      # 배포: korea-travel-git (Cloudflare Pages git연동)이 위 git push에서 자동 재빌드.
+      # 별도 deploy Action 불필요 — 단일 출구.
